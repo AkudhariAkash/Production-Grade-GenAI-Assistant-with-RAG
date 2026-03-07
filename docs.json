@@ -1,0 +1,103 @@
+[
+{"title":"Reset Password","content":"Users can reset their password by navigating to Settings > Security > Reset Password."},
+{"title":"Create Account","content":"Users can create an account by clicking Sign Up and completing the registration form."},
+{"title":"Delete Account","content":"Users can permanently delete their account from Settings > Privacy."},
+{"title":"Contact Support","content":"Users can contact support through the help center or email support@example.com."},
+{"title":"Refund Policy","content":"Refunds are processed within five to seven business days after approval."},
+
+{"title":"Change Email","content":"Users can change their email address from the profile settings page."},
+{"title":"Update Profile","content":"Users can update profile details such as name, phone number, and profile picture."},
+{"title":"Enable Two Factor Authentication","content":"Two factor authentication can be enabled from the security settings."},
+{"title":"Disable Two Factor Authentication","content":"Users can disable two factor authentication from the security settings."},
+{"title":"Verify Email","content":"Users must verify their email address to activate their account."},
+
+{"title":"Subscription Plans","content":"Users can view subscription plans from the billing section."},
+{"title":"Upgrade Plan","content":"Users can upgrade their subscription plan from the billing dashboard."},
+{"title":"Downgrade Plan","content":"Users can downgrade their subscription from the billing settings."},
+{"title":"Cancel Subscription","content":"Users can cancel their subscription anytime from the billing page."},
+{"title":"Payment Methods","content":"Users can add or remove payment methods in billing settings."},
+
+{"title":"Invoice Download","content":"Invoices can be downloaded from the billing history section."},
+{"title":"Billing Cycle","content":"Billing cycles can be monthly or yearly depending on the selected plan."},
+{"title":"Auto Renewal","content":"Subscriptions renew automatically at the end of the billing cycle."},
+{"title":"Payment Failure","content":"Users will receive a notification if a payment attempt fails."},
+{"title":"Free Trial","content":"New users may receive a free trial depending on the subscription plan."},
+
+{"title":"Upload Files","content":"Users can upload files using the upload option in the dashboard."},
+{"title":"Delete Files","content":"Users can delete files from the file manager."},
+{"title":"File Sharing","content":"Files can be shared using secure share links."},
+{"title":"File Size Limit","content":"Maximum upload file size is 100MB."},
+{"title":"Supported File Formats","content":"Supported file formats include PDF, DOCX, PNG, and JPG."},
+
+{"title":"Workspace Creation","content":"Users can create workspaces to collaborate with team members."},
+{"title":"Invite Team Members","content":"Admins can invite team members using email invitations."},
+{"title":"Remove Team Members","content":"Admins can remove members from workspace settings."},
+{"title":"User Roles","content":"Roles include Admin, Editor, and Viewer."},
+{"title":"Workspace Settings","content":"Workspace settings allow administrators to configure permissions."},
+
+{"title":"Notifications","content":"Users receive notifications about important account activities."},
+{"title":"Email Notifications","content":"Email notifications can be enabled or disabled in settings."},
+{"title":"Push Notifications","content":"Mobile push notifications can be enabled in app settings."},
+{"title":"Notification Preferences","content":"Users can customize notification preferences."},
+{"title":"Mute Notifications","content":"Notifications can be muted temporarily."},
+
+{"title":"Data Export","content":"Users can export data in CSV or JSON format."},
+{"title":"Data Backup","content":"Regular backups are performed to protect user data."},
+{"title":"Data Privacy","content":"User data is protected according to the privacy policy."},
+{"title":"GDPR Compliance","content":"The platform complies with GDPR regulations."},
+{"title":"Delete Personal Data","content":"Users can request deletion of personal data."},
+
+{"title":"Dashboard Overview","content":"The dashboard provides an overview of user activity and statistics."},
+{"title":"Analytics Reports","content":"Analytics reports provide insights into usage patterns."},
+{"title":"Usage Statistics","content":"Usage statistics track user engagement with platform features."},
+{"title":"Activity Logs","content":"Activity logs track user actions in the system."},
+{"title":"Audit Logs","content":"Audit logs are available for monitoring security events."},
+
+{"title":"Mobile Application","content":"The platform provides mobile applications for Android and iOS."},
+{"title":"Android App","content":"The Android application can be downloaded from Google Play."},
+{"title":"iOS App","content":"The iOS application can be downloaded from the App Store."},
+{"title":"Mobile Notifications","content":"Push notifications are supported on mobile apps."},
+{"title":"Offline Access","content":"Some features are available in offline mode."},
+
+{"title":"API Access","content":"Developers can interact with the platform using REST APIs."},
+{"title":"API Keys","content":"API keys are required to authenticate API requests."},
+{"title":"API Rate Limits","content":"API requests are limited by rate limits."},
+{"title":"Webhooks","content":"Webhooks allow real-time event notifications."},
+{"title":"Developer Documentation","content":"Developers can access documentation in the developer portal."},
+
+{"title":"Search Feature","content":"Users can search documents using the search bar."},
+{"title":"Advanced Search","content":"Advanced search allows filtering results using multiple criteria."},
+{"title":"Search Suggestions","content":"Search suggestions appear while typing."},
+{"title":"Search History","content":"Users can view previous search queries."},
+{"title":"Search Filters","content":"Filters help refine search results."},
+
+{"title":"Security Policy","content":"Security policies protect user data and system integrity."},
+{"title":"Encryption","content":"All data is encrypted during transmission."},
+{"title":"Account Lock","content":"Accounts may be locked after multiple failed login attempts."},
+{"title":"Login Alerts","content":"Users receive alerts for suspicious login activity."},
+{"title":"Password Requirements","content":"Passwords must contain at least eight characters."},
+
+{"title":"Session Timeout","content":"User sessions expire after a period of inactivity."},
+{"title":"Logout","content":"Users can log out from the account menu."},
+{"title":"Multiple Device Login","content":"Users can log in from multiple devices."},
+{"title":"Device Management","content":"Users can manage trusted devices from settings."},
+{"title":"Login History","content":"Login history shows recent account access events."},
+
+{"title":"Support Tickets","content":"Users can create support tickets through the help center."},
+{"title":"Ticket Status","content":"Users can track ticket status from the support dashboard."},
+{"title":"Live Chat Support","content":"Live chat support is available during business hours."},
+{"title":"Community Forum","content":"Users can discuss issues in the community forum."},
+{"title":"Knowledge Base","content":"The knowledge base contains helpful documentation."},
+
+{"title":"System Maintenance","content":"Scheduled maintenance may temporarily interrupt services."},
+{"title":"Service Status","content":"Users can check system status on the status page."},
+{"title":"Incident Reports","content":"Incident reports explain service disruptions."},
+{"title":"Downtime Notifications","content":"Users are notified about planned downtime."},
+{"title":"Backup Servers","content":"Backup servers ensure service availability."},
+
+{"title":"Integration Support","content":"The platform supports integrations with third-party tools."},
+{"title":"Slack Integration","content":"Users can connect their account with Slack."},
+{"title":"Google Drive Integration","content":"Files can be synced with Google Drive."},
+{"title":"Zapier Integration","content":"Automation workflows can be created with Zapier."},
+{"title":"Webhook Triggers","content":"Webhooks trigger external automation."}
+]
