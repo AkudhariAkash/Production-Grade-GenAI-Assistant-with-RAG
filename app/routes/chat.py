@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
+from typing import Optional
 
 from app.models.schemas import ChatRequest, ChatResponse, HealthResponse, TokenRequest, TokenResponse
 from app.services.auth import create_access_token, verify_token
@@ -6,7 +7,14 @@ from app.services.rag_service import RAGService
 
 
 router = APIRouter()
-rag_service = RAGService()
+rag_service: Optional[RAGService] = None
+
+
+def get_rag_service() -> RAGService:
+    global rag_service
+    if rag_service is None:
+        rag_service = RAGService()
+    return rag_service
 
 
 @router.get("/health", response_model=HealthResponse)
@@ -26,7 +34,8 @@ def chat(req: ChatRequest, _: str = Depends(verify_token)):
     if not req.sessionId.strip():
         raise HTTPException(status_code=400, detail="sessionId field is required")
     try:
-        return rag_service.chat(req.sessionId, req.message)
+        service = get_rag_service()
+        return service.chat(req.sessionId, req.message)
     except RuntimeError as exc:
         msg = str(exc)
         if msg == "Invalid API key":
