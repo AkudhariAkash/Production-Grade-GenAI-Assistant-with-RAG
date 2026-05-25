@@ -22,11 +22,14 @@ class RAGService:
                 os.environ.pop(proxy_key, None)
         self.logger = setup_logger()
         self.docs_path = docs_path
-        self.embedder = EmbeddingService("all-MiniLM-L6-v2")
         self.memory = InMemorySessionMemory(max_pairs=5)
         self.chat_store = ChatHistoryStore("chat_history.db")
         similarity_threshold = float(os.getenv("SIMILARITY_THRESHOLD", "0.12"))
         top_k = int(os.getenv("TOP_K", "5"))
+        api_key = os.getenv("GEMINI_API_KEY", "").strip()
+        if not api_key:
+            raise ValueError("Please set GEMINI_API_KEY in environment")
+        self.embedder = EmbeddingService(api_key=api_key, model_name="gemini-embedding-001")
 
         dim = len(self.embedder.generate_embedding("probe"))
         self.vector_store = FaissVectorStore(vector_dim=dim)
@@ -37,9 +40,6 @@ class RAGService:
             top_k=top_k,
         )
 
-        api_key = os.getenv("GEMINI_API_KEY", "").strip()
-        if not api_key:
-            raise ValueError("Please set GEMINI_API_KEY in environment")
         self.llm = LLMService(api_key=api_key)
         self._ensure_index()
 
@@ -54,15 +54,17 @@ class RAGService:
                 and len(self.vector_store.metadata) == len(chunks)
             )
             has_embedding_text = all("embedding_text" in item for item in self.vector_store.metadata)
-            if same_count and has_embedding_text:
+            dim_match = getattr(self.vector_store.index, "d", None) == self.vector_store.vector_dim
+            if same_count and has_embedding_text and dim_match:
                 needs_rebuild = False
                 self.logger.info("Loaded FAISS index with %d vectors", self.vector_store.index.ntotal)
             else:
                 self.logger.info(
-                    "Rebuilding stale FAISS index (index=%d, docs=%d, title-aware=%s)",
+                    "Rebuilding stale FAISS index (index=%d, docs=%d, title-aware=%s, dim-match=%s)",
                     self.vector_store.index.ntotal,
                     len(chunks),
                     has_embedding_text,
+                    dim_match,
                 )
 
         if needs_rebuild:
