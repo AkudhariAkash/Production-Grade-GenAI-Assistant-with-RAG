@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG Support Assistant</title>
+  <link rel="stylesheet" href="/frontend/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <div class="brand">
+        <p class="kicker">Knowledge Base Chat</p>
+        <h1>RAG Support Assistant</h1>
+      </div>
+      <button id="newChatBtn" class="ghost-btn" type="button">New Chat</button>
+    </header>
+
+    <p id="statusText" class="status">Ready. Ask a support question.</p>
+
+    <section id="chatWindow" class="chat-window"></section>
+
+    <div id="loading" class="loading hidden">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      Assistant is thinking...
+    </div>
+
+    <form id="chatForm" class="composer">
+      <input id="messageInput" type="text" placeholder="Ask from the knowledge base..." autocomplete="off" />
+      <button id="sendBtn" type="submit">Send</button>
+    </form>
+  </main>
+  <script src="/frontend/app.js"></script>
+</body>
+</html>

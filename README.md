@@ -1,307 +1,75 @@
-# 🧠 Production-Grade GenAI Assistant with RAG
+# Production-Grade GenAI Chat Assistant with RAG
 
-This project implements a **Production-Style GenAI Chat Assistant** using **Retrieval-Augmented Generation (RAG)**.
+## Project Overview
+This project is a production-ready GenAI assistant using FastAPI, Gemini, SentenceTransformers embeddings, and FAISS retrieval. It answers user questions using context grounded in a local knowledge base (`docs.json`) and supports secure API access via JWT.
 
-The assistant answers user questions by retrieving relevant information from a **document knowledge base** and generating responses using a **Large Language Model (LLM)**.
-
-The system ensures that responses are **grounded in retrieved documents**, preventing hallucinations.
-
----
-
-# 🎯 Objective
-
-The goal of this project is to build a **GenAI-powered chat assistant** that:
-
-1. Converts documents into embeddings
-2. Stores embeddings in a vector database
-3. Retrieves relevant documents using similarity search
-4. Injects retrieved context into the LLM prompt
-5. Generates accurate grounded responses
-
----
-
-# 🛠 Tech Stack
-
-| Component | Technology |
-|----------|------------|
-| Backend | Python (Flask) |
-| Frontend | HTML, CSS, JavaScript |
-| LLM API | Google Gemini |
-| Embedding Model | gemini-embedding-001 |
-| Vector Storage | In-memory vector store |
-| Similarity Search | Cosine Similarity |
-| Libraries | numpy, scikit-learn |
-
----
-
-# 🧩 System Architecture
-
-User
-│
-│ Ask Question
-▼
-Frontend (HTML Chat UI)
-│
-│ POST /api/chat
-▼
-Flask Backend
-│
-├── Query Embedding
-│
-▼
-Vector Store
-(Document Embeddings)
-│
-│ Cosine Similarity Search
-▼
-Top 3 Relevant Chunks
-│
-▼
-Prompt Builder
-(Context + History + Question)
-│
-▼
-Gemini LLM
-│
-▼
-Generated Answer
-│
-▼
-Return JSON Response
-│
-▼
-Frontend Chat Display
-
-
-
----
-
-# 📚 RAG Workflow
-
-The system follows a **Retrieval-Augmented Generation pipeline**.
-
----
-
-## 1️⃣ Document Knowledge Base
-
-Documents are stored in:
-
+## Architecture Diagram (Mermaid)
+```mermaid
+flowchart TD
+    U[User] --> F[Frontend]
+    F -->|POST /api/chat| A[FastAPI Backend]
+    A --> E[SentenceTransformer Embeddings]
+    E --> V[FAISS Vector Store]
+    V --> R[Top-K Retrieval + Threshold]
+    R --> P[Prompt Builder]
+    P --> G[Gemini 2.5 Flash]
+    G --> A
+    A --> S[SQLite Chat History]
 ```
 
-docs.json
-
-```
-
-Example:
-
-```json
-{
-"title": "Reset Password",
-"content": "Users can reset their password from Settings > Security."
-}
-
-
-2️⃣ Document Chunking
-
-Large documents are split into smaller chunks.
-
-Example:
-
-Chunk Size = 120 words
-
-Purpose:
-
-Improves semantic retrieval
-
-Prevents token overflow
-
-Improves embedding accuracy
-
-3️⃣ Embedding Generation
-
-Each document chunk is converted into a vector embedding using:
-
-gemini-embedding-001
-
-Example embedding:
-
-[0.23, -0.14, 0.89, ...]
-
-These embeddings represent the semantic meaning of the text.
-
-4️⃣ Vector Storage
-
-Embeddings are stored in memory as a vector store.
-
-Example structure:
-
-{
-"title": "Reset Password",
-"content": "Users can reset their password...",
-"embedding": [0.23, -0.11, 0.54]
-}
-5️⃣ Query Embedding
-
-When a user asks a question:
-
-How can I reset my password?
-
-The system generates a query embedding.
-
-6️⃣ Similarity Search
-
-Cosine similarity compares the query embedding with document embeddings.
-
-Formula:
-
-cosine_similarity(A,B) =
-(A · B) / (||A|| ||B||)
-
-The system retrieves the Top 3 most relevant document chunks.
-
-7️⃣ Context Injection
-
-Retrieved chunks are injected into the LLM prompt.
-
-Example prompt:
-
-Context:
-Users can reset their password from Settings > Security.
-
-User Question:
-How can I reset my password?
-
-Answer:
-8️⃣ Response Generation
-
-The LLM generates the final grounded response.
-
-Example:
-
-Users can reset their password by navigating to Settings > Security > Reset Password.
-🧠 Prompt Design
-
-Prompt structure:
-
-System Instruction
-Context
-Conversation History
-User Question
-
-Example:
-
-You are a helpful AI assistant.
-
-Answer ONLY using the provided context.
-
-Context:
-...
-
-Conversation History:
-...
-
-User Question:
-...
-
-Answer:
-
-Purpose:
-
-Prevent hallucinations
-
-Maintain conversation flow
-
-Ensure grounded responses
-
-🔌 API Design
-Endpoint
-POST /api/chat
-Request
-{
-"sessionId": "abc123",
-"message": "How can I reset my password?"
-}
-Response
-{
-"reply": "Users can reset their password from Settings > Security.",
-"tokensUsed": 120,
-"retrievedChunks": 3
-}
-Error Response
-{
-"error": "Message required"
-}
-💻 Frontend Features
-
-The chat interface includes:
-
-User message input
-
-Send button
-
-Chat history display
-
-Auto scroll
-
-Session handling using localStorage
-
-Loading indicator
-
-🧠 Conversation Memory
-
-The assistant stores the last 3–5 conversation pairs.
-
-Example:
-
-User: Reset password
-Assistant: Instructions...
-
-User: Where is security settings?
-Assistant: Security settings are located...
-
-This enables context-aware conversations.
-
-📂 Project Structure
-genai-rag-assistant
-│
-├── app.py
-├── docs.json
-├── requirements.txt
-│
-├── templates
-│   └── index.html
-│
-├── static
-│   ├── script.js
-│   └── styles.css
-│
-└── README.md
-⚙️ Setup Instructions
-1️⃣ Clone Repository
-git clone https://github.com/your-username/genai-rag-assistant
-cd genai-rag-assistant
-2️⃣ Create Virtual Environment
+## RAG Workflow
+1. Load and chunk documents.
+2. Generate embeddings with `all-MiniLM-L6-v2`.
+3. Store vectors and metadata in FAISS.
+4. Embed query and retrieve top-k chunks.
+5. Apply threshold (`0.70`).
+6. Build prompt with context + conversation history.
+7. Generate grounded response via Gemini.
+
+## Embedding Strategy
+- Model: `all-MiniLM-L6-v2`
+- Normalized vectors for robust semantic retrieval.
+
+## Similarity Search
+- FAISS `IndexFlatIP` for dense vector similarity.
+- Top 3 chunks returned with scores.
+- Safe fallback if no score exceeds threshold.
+
+## Prompt Design
+The prompt strictly instructs the model to use retrieved context and admit when the answer is unavailable.
+
+## Installation
+```bash
 python -m venv venv
-
-Activate:
-
-Windows
-
-venv\Scripts\activate
-3️⃣ Install Dependencies
+venv\\Scripts\\activate
 pip install -r requirements.txt
-4️⃣ Set Gemini API Key
+```
 
-Windows:
+## Environment Variables
+Copy `.env.example` to `.env` and set:
+- `GEMINI_API_KEY`
+- `JWT_SECRET_KEY`
 
-set GEMINI_API_KEY=your_api_key
-
-Linux / Mac:
-
-export GEMINI_API_KEY=your_api_key
-5️⃣ Run the Application
+## Running Locally
+```bash
 python app.py
-6️⃣ Open in Browser
-http://localhost:5000
+```
+Open `http://127.0.0.1:8000`
 
+## Render Deployment
+- `render.yaml` included
+- Build command: `pip install -r requirements.txt`
+- Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
 
+## API Docs
+Swagger: `http://127.0.0.1:8000/docs`
+
+## Endpoints
+- `GET /health`
+- `POST /auth/token`
+- `POST /api/chat` (JWT required)
+
+## Screenshots Placeholders
+- `docs/screenshots/chat-ui.png`
+- `docs/screenshots/swagger.png`
+- `docs/screenshots/deploy.png`

@@ -1,103 +1,2122 @@
-[
-{"title":"Reset Password","content":"Users can reset their password by navigating to Settings > Security > Reset Password."},
-{"title":"Create Account","content":"Users can create an account by clicking Sign Up and completing the registration form."},
-{"title":"Delete Account","content":"Users can permanently delete their account from Settings > Privacy."},
-{"title":"Contact Support","content":"Users can contact support through the help center or email support@example.com."},
-{"title":"Refund Policy","content":"Refunds are processed within five to seven business days after approval."},
-
-{"title":"Change Email","content":"Users can change their email address from the profile settings page."},
-{"title":"Update Profile","content":"Users can update profile details such as name, phone number, and profile picture."},
-{"title":"Enable Two Factor Authentication","content":"Two factor authentication can be enabled from the security settings."},
-{"title":"Disable Two Factor Authentication","content":"Users can disable two factor authentication from the security settings."},
-{"title":"Verify Email","content":"Users must verify their email address to activate their account."},
-
-{"title":"Subscription Plans","content":"Users can view subscription plans from the billing section."},
-{"title":"Upgrade Plan","content":"Users can upgrade their subscription plan from the billing dashboard."},
-{"title":"Downgrade Plan","content":"Users can downgrade their subscription from the billing settings."},
-{"title":"Cancel Subscription","content":"Users can cancel their subscription anytime from the billing page."},
-{"title":"Payment Methods","content":"Users can add or remove payment methods in billing settings."},
-
-{"title":"Invoice Download","content":"Invoices can be downloaded from the billing history section."},
-{"title":"Billing Cycle","content":"Billing cycles can be monthly or yearly depending on the selected plan."},
-{"title":"Auto Renewal","content":"Subscriptions renew automatically at the end of the billing cycle."},
-{"title":"Payment Failure","content":"Users will receive a notification if a payment attempt fails."},
-{"title":"Free Trial","content":"New users may receive a free trial depending on the subscription plan."},
-
-{"title":"Upload Files","content":"Users can upload files using the upload option in the dashboard."},
-{"title":"Delete Files","content":"Users can delete files from the file manager."},
-{"title":"File Sharing","content":"Files can be shared using secure share links."},
-{"title":"File Size Limit","content":"Maximum upload file size is 100MB."},
-{"title":"Supported File Formats","content":"Supported file formats include PDF, DOCX, PNG, and JPG."},
-
-{"title":"Workspace Creation","content":"Users can create workspaces to collaborate with team members."},
-{"title":"Invite Team Members","content":"Admins can invite team members using email invitations."},
-{"title":"Remove Team Members","content":"Admins can remove members from workspace settings."},
-{"title":"User Roles","content":"Roles include Admin, Editor, and Viewer."},
-{"title":"Workspace Settings","content":"Workspace settings allow administrators to configure permissions."},
-
-{"title":"Notifications","content":"Users receive notifications about important account activities."},
-{"title":"Email Notifications","content":"Email notifications can be enabled or disabled in settings."},
-{"title":"Push Notifications","content":"Mobile push notifications can be enabled in app settings."},
-{"title":"Notification Preferences","content":"Users can customize notification preferences."},
-{"title":"Mute Notifications","content":"Notifications can be muted temporarily."},
-
-{"title":"Data Export","content":"Users can export data in CSV or JSON format."},
-{"title":"Data Backup","content":"Regular backups are performed to protect user data."},
-{"title":"Data Privacy","content":"User data is protected according to the privacy policy."},
-{"title":"GDPR Compliance","content":"The platform complies with GDPR regulations."},
-{"title":"Delete Personal Data","content":"Users can request deletion of personal data."},
-
-{"title":"Dashboard Overview","content":"The dashboard provides an overview of user activity and statistics."},
-{"title":"Analytics Reports","content":"Analytics reports provide insights into usage patterns."},
-{"title":"Usage Statistics","content":"Usage statistics track user engagement with platform features."},
-{"title":"Activity Logs","content":"Activity logs track user actions in the system."},
-{"title":"Audit Logs","content":"Audit logs are available for monitoring security events."},
-
-{"title":"Mobile Application","content":"The platform provides mobile applications for Android and iOS."},
-{"title":"Android App","content":"The Android application can be downloaded from Google Play."},
-{"title":"iOS App","content":"The iOS application can be downloaded from the App Store."},
-{"title":"Mobile Notifications","content":"Push notifications are supported on mobile apps."},
-{"title":"Offline Access","content":"Some features are available in offline mode."},
-
-{"title":"API Access","content":"Developers can interact with the platform using REST APIs."},
-{"title":"API Keys","content":"API keys are required to authenticate API requests."},
-{"title":"API Rate Limits","content":"API requests are limited by rate limits."},
-{"title":"Webhooks","content":"Webhooks allow real-time event notifications."},
-{"title":"Developer Documentation","content":"Developers can access documentation in the developer portal."},
-
-{"title":"Search Feature","content":"Users can search documents using the search bar."},
-{"title":"Advanced Search","content":"Advanced search allows filtering results using multiple criteria."},
-{"title":"Search Suggestions","content":"Search suggestions appear while typing."},
-{"title":"Search History","content":"Users can view previous search queries."},
-{"title":"Search Filters","content":"Filters help refine search results."},
-
-{"title":"Security Policy","content":"Security policies protect user data and system integrity."},
-{"title":"Encryption","content":"All data is encrypted during transmission."},
-{"title":"Account Lock","content":"Accounts may be locked after multiple failed login attempts."},
-{"title":"Login Alerts","content":"Users receive alerts for suspicious login activity."},
-{"title":"Password Requirements","content":"Passwords must contain at least eight characters."},
-
-{"title":"Session Timeout","content":"User sessions expire after a period of inactivity."},
-{"title":"Logout","content":"Users can log out from the account menu."},
-{"title":"Multiple Device Login","content":"Users can log in from multiple devices."},
-{"title":"Device Management","content":"Users can manage trusted devices from settings."},
-{"title":"Login History","content":"Login history shows recent account access events."},
-
-{"title":"Support Tickets","content":"Users can create support tickets through the help center."},
-{"title":"Ticket Status","content":"Users can track ticket status from the support dashboard."},
-{"title":"Live Chat Support","content":"Live chat support is available during business hours."},
-{"title":"Community Forum","content":"Users can discuss issues in the community forum."},
-{"title":"Knowledge Base","content":"The knowledge base contains helpful documentation."},
-
-{"title":"System Maintenance","content":"Scheduled maintenance may temporarily interrupt services."},
-{"title":"Service Status","content":"Users can check system status on the status page."},
-{"title":"Incident Reports","content":"Incident reports explain service disruptions."},
-{"title":"Downtime Notifications","content":"Users are notified about planned downtime."},
-{"title":"Backup Servers","content":"Backup servers ensure service availability."},
-
-{"title":"Integration Support","content":"The platform supports integrations with third-party tools."},
-{"title":"Slack Integration","content":"Users can connect their account with Slack."},
-{"title":"Google Drive Integration","content":"Files can be synced with Google Drive."},
-{"title":"Zapier Integration","content":"Automation workflows can be created with Zapier."},
-{"title":"Webhook Triggers","content":"Webhooks trigger external automation."}
+﻿[
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I update timezone?",
+        "content":  "Open Profile \u003e Preferences \u003e Timezone and select your local timezone. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I transfer workspace ownership?",
+        "content":  "Current owner can transfer ownership from Workspace Settings \u003e Ownership. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I view system status?",
+        "content":  "Check the status page for uptime, incidents, and maintenance announcements. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I receive outage notifications?",
+        "content":  "Subscribe on the status page or enable incident notifications in account settings. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I clear cached browser session issues?",
+        "content":  "Sign out, clear browser cache/cookies, and sign in again with latest credentials. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "Why does the app load slowly?",
+        "content":  "Check network speed, browser extensions, and current service status for ongoing incidents. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I update timezone?",
+        "content":  "Open Profile \u003e Preferences \u003e Timezone and select your local timezone. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I transfer workspace ownership?",
+        "content":  "Current owner can transfer ownership from Workspace Settings \u003e Ownership. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I view system status?",
+        "content":  "Check the status page for uptime, incidents, and maintenance announcements. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I receive outage notifications?",
+        "content":  "Subscribe on the status page or enable incident notifications in account settings. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I clear cached browser session issues?",
+        "content":  "Sign out, clear browser cache/cookies, and sign in again with latest credentials. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "Why does the app load slowly?",
+        "content":  "Check network speed, browser extensions, and current service status for ongoing incidents. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I update timezone?",
+        "content":  "Open Profile \u003e Preferences \u003e Timezone and select your local timezone. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I transfer workspace ownership?",
+        "content":  "Current owner can transfer ownership from Workspace Settings \u003e Ownership. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I view system status?",
+        "content":  "Check the status page for uptime, incidents, and maintenance announcements. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I receive outage notifications?",
+        "content":  "Subscribe on the status page or enable incident notifications in account settings. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I clear cached browser session issues?",
+        "content":  "Sign out, clear browser cache/cookies, and sign in again with latest credentials. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "Why does the app load slowly?",
+        "content":  "Check network speed, browser extensions, and current service status for ongoing incidents. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I update timezone?",
+        "content":  "Open Profile \u003e Preferences \u003e Timezone and select your local timezone. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I transfer workspace ownership?",
+        "content":  "Current owner can transfer ownership from Workspace Settings \u003e Ownership. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I view system status?",
+        "content":  "Check the status page for uptime, incidents, and maintenance announcements. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I receive outage notifications?",
+        "content":  "Subscribe on the status page or enable incident notifications in account settings. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I clear cached browser session issues?",
+        "content":  "Sign out, clear browser cache/cookies, and sign in again with latest credentials. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "Why does the app load slowly?",
+        "content":  "Check network speed, browser extensions, and current service status for ongoing incidents. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I update timezone?",
+        "content":  "Open Profile \u003e Preferences \u003e Timezone and select your local timezone. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I transfer workspace ownership?",
+        "content":  "Current owner can transfer ownership from Workspace Settings \u003e Ownership. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I view system status?",
+        "content":  "Check the status page for uptime, incidents, and maintenance announcements. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I receive outage notifications?",
+        "content":  "Subscribe on the status page or enable incident notifications in account settings. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I clear cached browser session issues?",
+        "content":  "Sign out, clear browser cache/cookies, and sign in again with latest credentials. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "Why does the app load slowly?",
+        "content":  "Check network speed, browser extensions, and current service status for ongoing incidents. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I update timezone?",
+        "content":  "Open Profile \u003e Preferences \u003e Timezone and select your local timezone. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I transfer workspace ownership?",
+        "content":  "Current owner can transfer ownership from Workspace Settings \u003e Ownership. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I view system status?",
+        "content":  "Check the status page for uptime, incidents, and maintenance announcements. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I receive outage notifications?",
+        "content":  "Subscribe on the status page or enable incident notifications in account settings. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I clear cached browser session issues?",
+        "content":  "Sign out, clear browser cache/cookies, and sign in again with latest credentials. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "Why does the app load slowly?",
+        "content":  "Check network speed, browser extensions, and current service status for ongoing incidents. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I update timezone?",
+        "content":  "Open Profile \u003e Preferences \u003e Timezone and select your local timezone. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I transfer workspace ownership?",
+        "content":  "Current owner can transfer ownership from Workspace Settings \u003e Ownership. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I view system status?",
+        "content":  "Check the status page for uptime, incidents, and maintenance announcements. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I receive outage notifications?",
+        "content":  "Subscribe on the status page or enable incident notifications in account settings. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I clear cached browser session issues?",
+        "content":  "Sign out, clear browser cache/cookies, and sign in again with latest credentials. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "Why does the app load slowly?",
+        "content":  "Check network speed, browser extensions, and current service status for ongoing incidents. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I reset my password?",
+        "content":  "Go to Settings \u003e Security \u003e Reset Password. Enter the verification code sent to your email and create a new password. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I change my current password?",
+        "content":  "Open Profile \u003e Security \u003e Change Password. Enter your old password, then set and confirm a new password. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "I forgot my password. What should I do?",
+        "content":  "Use the Forgot Password option on the sign-in page. Enter your registered email and follow the reset link. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "Why am I not receiving password reset email?",
+        "content":  "Check spam and promotions folders, verify your registered email, and wait up to 5 minutes before retrying. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I unlock my account after failed login attempts?",
+        "content":  "Wait for the lockout timer to expire or use account recovery. Admins can also unlock users from Admin \u003e Users. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I enable two-factor authentication?",
+        "content":  "Go to Settings \u003e Security \u003e Two-Factor Authentication and scan the QR code with your authenticator app. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I recover if I lose my MFA device?",
+        "content":  "Use your recovery codes from setup. If unavailable, contact support for identity verification and MFA reset. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I create an account?",
+        "content":  "Select Sign Up, enter your details, verify your email, then complete onboarding steps. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I verify my email address?",
+        "content":  "Open the verification email and click the confirm link. You can resend it from Profile \u003e Email Settings. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I update my email address?",
+        "content":  "Go to Profile \u003e Personal Info, update your email, and confirm through the verification link. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I delete my account?",
+        "content":  "Open Account Settings \u003e Delete Account. Confirm deletion to permanently remove access and associated data. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I reactivate a deleted account?",
+        "content":  "If within the recovery window, contact support with your account email to request restoration. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I upgrade my subscription plan?",
+        "content":  "Go to Billing \u003e Subscription and choose the desired plan. Upgrades usually apply immediately. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I downgrade my plan?",
+        "content":  "Open Billing \u003e Subscription and select a lower tier. Downgrades normally apply at next billing cycle. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I cancel my subscription?",
+        "content":  "Go to Billing \u003e Subscription \u003e Cancel Plan and confirm. Access continues until the period ends. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I request a refund?",
+        "content":  "Submit a refund request from Billing \u003e Help or email billing support within the policy window. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "Where can I download invoices?",
+        "content":  "Go to Billing \u003e Invoices and select the invoice to download as PDF. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I update payment method?",
+        "content":  "Navigate to Billing \u003e Payment Methods, add a new card, and set it as default. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I remove an old payment card?",
+        "content":  "In Billing \u003e Payment Methods, remove the card after ensuring another valid default method exists. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "Why did my payment fail?",
+        "content":  "Check card status, limits, and billing address. Retry with updated details or another payment method. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I contact support?",
+        "content":  "Use in-app chat or email support@company.com with issue details, screenshots, and timestamps. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "What are support working hours?",
+        "content":  "Support operates Monday to Friday, 9 AM to 6 PM local time, excluding public holidays. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I get priority support?",
+        "content":  "Priority support is available on premium tiers. Upgrade plan or contact sales for enterprise support. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I create an API key?",
+        "content":  "Go to Developer Settings \u003e API Keys \u003e Create Key, copy it once, and store it securely. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I rotate API keys safely?",
+        "content":  "Create a new key first, update integrations, test traffic, then revoke the old key. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "Why am I getting 401 Unauthorized from API?",
+        "content":  "Verify bearer token format, key validity, environment, and whether key has required permissions. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "Why am I getting 429 Too Many Requests?",
+        "content":  "You exceeded rate limits. Implement retries with backoff and reduce request burst size. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I check API usage?",
+        "content":  "View Developer Settings \u003e Usage for request counts, errors, and throttling history. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I set up webhooks?",
+        "content":  "Go to Developer Settings \u003e Webhooks, add endpoint URL, choose events, and save secret token. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I verify webhook signatures?",
+        "content":  "Use the webhook secret to compute HMAC and compare with signature header on each request. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I retry failed webhook deliveries?",
+        "content":  "Open Webhooks \u003e Delivery Logs and click Retry for failed events after fixing endpoint issues. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I invite team members?",
+        "content":  "Go to Workspace \u003e Members \u003e Invite, add emails, assign roles, and send invitations. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I change user roles?",
+        "content":  "Admins can update roles from Workspace \u003e Members \u003e Role dropdown. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I remove a team member?",
+        "content":  "Go to Workspace \u003e Members, choose the user, and click Remove access. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "What is the difference between Admin and User roles?",
+        "content":  "Admins can manage users, settings, and billing. Users have standard operational access. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I configure single sign-on (SSO)?",
+        "content":  "Open Admin \u003e Authentication \u003e SSO, add IdP metadata, and test before enforcement. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I enforce SSO for all users?",
+        "content":  "After successful SSO test, enable Enforce SSO in authentication settings. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I view audit logs?",
+        "content":  "Open Admin \u003e Audit Logs to see sign-ins, permission changes, and critical actions. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I export audit logs?",
+        "content":  "Use Audit Logs \u003e Export and choose date range and format. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I set session timeout?",
+        "content":  "Go to Security \u003e Session Policy and set inactivity timeout duration. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I enable login alerts?",
+        "content":  "Enable Security notifications from Settings \u003e Notifications \u003e Security Alerts. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I report suspicious login activity?",
+        "content":  "Immediately rotate password, revoke sessions, enable MFA, and contact support with log details. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "How do I connect Slack integration?",
+        "content":  "Open Integrations \u003e Slack, authorize workspace, and choose channels for notifications. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I connect Jira integration?",
+        "content":  "Go to Integrations \u003e Jira, authorize account, and map project keys. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I connect Salesforce integration?",
+        "content":  "Open Integrations \u003e Salesforce and complete OAuth authorization with admin permissions. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I connect Microsoft Teams integration?",
+        "content":  "Go to Integrations \u003e Teams, sign in, and approve requested scopes. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I troubleshoot integration sync failures?",
+        "content":  "Check auth token validity, field mapping, and recent error logs in integration status panel. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I create a project?",
+        "content":  "From Dashboard, click New Project, enter name, choose workspace, and save. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How do I archive a project?",
+        "content":  "Open Project Settings \u003e Archive. Archived projects remain read-only until restored. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I restore an archived project?",
+        "content":  "Go to Projects \u003e Archived, select project, and click Restore. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I upload files?",
+        "content":  "Use the Uploads section, drag files, and confirm processing status. If retrying does not work, wait a few minutes and try again."
+    },
+    {
+        "title":  "How do I download reports?",
+        "content":  "Open Reports \u003e Downloads and click the generated file name. If the option is missing, contact support with your account email."
+    },
+    {
+        "title":  "Why did my file upload fail?",
+        "content":  "Check file size limits, supported format, and network stability, then retry upload. This action may require Admin privileges depending on workspace policy."
+    },
+    {
+        "title":  "How do I search records quickly?",
+        "content":  "Use global search with filters for status, owner, date range, and tags. For security, you may be asked to re-authenticate before confirming changes."
+    },
+    {
+        "title":  "How do I set automation rules?",
+        "content":  "Go to Automation \u003e Rules, define trigger conditions, add actions, and publish. Changes are usually reflected immediately after saving."
+    },
+    {
+        "title":  "How do I retry failed automation jobs?",
+        "content":  "Open Automation \u003e Job History and retry failed runs after correcting root cause. You can verify completion from the activity or audit section."
+    },
+    {
+        "title":  "How do I schedule reports?",
+        "content":  "Go to Reports \u003e Schedule, select frequency, recipients, and timezone. If errors continue, capture screenshot and timestamp before contacting support."
+    },
+    {
+        "title":  "How do I export my data?",
+        "content":  "Open Settings \u003e Data Export, choose data type and date range, then start export. Enterprise workspaces may have extra controls set by admins."
+    },
+    {
+        "title":  "How long is deleted data retained?",
+        "content":  "Deleted records are retained for a limited recovery period before permanent deletion. Make sure your email is verified before attempting this action."
+    },
+    {
+        "title":  "How do I submit a privacy request?",
+        "content":  "Email privacy@company.com with account details and request type. Use the latest app version for the best compatibility."
+    },
+    {
+        "title":  "How do I change language settings?",
+        "content":  "Go to Profile \u003e Preferences \u003e Language and save your preferred language. If retrying does not work, wait a few minutes and try again."
+    }
 ]
